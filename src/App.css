@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  color: blue;
+}
+
+.addBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addBtn:hover {
+  background-color: #0056b3;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.task:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 30px;
+  transform: scale(2.5);
+}
+.task input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+.task button {
+  margin-left: auto;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #c82333;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.todo-title {
+  font-weight: bold;
+  color: #007bff;
+}
+.task p {
+  font-size: 1.3rem;
+}
+
+.custom-input {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
